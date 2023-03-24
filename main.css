@@ -27,11 +27,11 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container,
-section .container {
+header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .brands-list img {
@@ -40,4 +40,10 @@ section .container {
 
 .brands-list li {
     display: inline;
+}
+
+section .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
